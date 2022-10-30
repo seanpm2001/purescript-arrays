@@ -35,7 +35,7 @@ export const spliceImpl = function (i, howMany, bs, xs) {
 
 function unsafeFreezeThawImpl(xs) {
   return xs;
-};
+}
 
 export const unsafeFreezeImpl = unsafeFreezeThawImpl;
 
